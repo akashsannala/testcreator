@@ -71,8 +71,35 @@ def analyze_image(image_path):
 
 
 
-# Analyze the image and get the description
-image_description = analyze_image("sources\Capture.JPG")
+def upload_image(image_path):
+    """Simulate image upload by returning the path of the uploaded image."""
+    # In a real application, you would handle file uploads here
+    return image_path
 
-# Generate a question based on the image description
-text_to_question(image_description)
+def generate_question_paper(text, image_paths):
+    """Generate a dynamic question paper based on text and images."""
+    questions = []
+
+    # Generate questions from text
+    text_questions = text_to_question(text)
+    questions.append(text_questions)
+
+    # Generate questions from images
+    for image_path in image_paths:
+        image_description = analyze_image(image_path)
+        image_questions = text_to_question(image_description)
+        questions.append(image_questions)
+
+    return questions
+
+
+
+
+
+
+if __name__ == "__main__":
+    # Analyze the image and get the description
+    image_description = analyze_image("sources\Capture.JPG")
+
+    # Generate a question based on the image description
+    text_to_question(image_description)
