@@ -102,18 +102,21 @@ The `text_to_question` function leverages **Google's Gemini 2.0 Flash model** fo
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
-🚀 Future Scope & Limitations
-🔮 Future Enhancements
+🚀 Future Scope & Limitations 
+
+
+🎯 Future Enhancements
 ✅ Performance Optimization – Reduce latency and improve response times by optimizing API calls.
 ✅ Structured Model with LangChain – Utilize LangChain to create a more modular and organized workflow.
 ✅ Customizable Input Options – Allow users to upload images and provide custom prompts for expected test sheet generation.
 ✅ Efficient Processing with Embeddings – Instead of passing raw text, integrate text embeddings in text_to_question for improved accuracy and performance.
 ✅ Modular Model Architecture – Break down processes into smaller components to enhance efficiency and scalability.
 
+
 ⚠️ Limitations
-🚧 Token Consumption – High token usage for image-to-text conversion may require optimization.
-🚧 API Rate Limits – Processing speed is restricted by API constraints (TPM & RPM).
-🚧 Dependency on External APIs – Performance may vary based on OpenAI and Gemini API updates.
+📌 Token Consumption – High token usage for image-to-text conversion may require optimization.
+📌 API Rate Limits – Processing speed is restricted by API constraints (TPM & RPM).
+📌 Dependency on External APIs – Performance may vary based on OpenAI and Gemini API updates.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
@@ -121,16 +124,27 @@ The `text_to_question` function leverages **Google's Gemini 2.0 Flash model** fo
 
 
 📊 Model Performance & Analysis Capacity
+
 🔢 Current Model Stats
+
 Requests per Minute (RPM): 15
+
 Requests per Day (RPD): 1,000,000
+
 Tokens per Minute (TPM): 1,500
+
 📄 Token Consumption Estimate (Based on CAPTURE.JPG)
+
 Image Processing: 516 tokens
+
 Extracted Text Processing: 662 tokens
+
 Total Estimated Tokens per Page: ~1,178 tokens
+
 📚 Daily Processing Capacity
+
 Maximum Pages Processed per Day: ~666 pages
+
 Equivalent to:
 ✅ Xth Class SSC Mathematics Textbook 📖 + Physics Textbook ⚛️
 
