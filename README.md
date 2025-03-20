@@ -87,8 +87,21 @@ Analyzes an image and returns its description.
 - `ValueError`: If the `GOOGLE_API_KEY` is not found in the environment variables.
 
 
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🧠 Models Used in This Application  
+
+### 🔍 **Image Analysis with OpenAI & Gemini (Beta)**  
+Currently using the **beta version of OpenAI integrated with Gemini** in the `analyze_image` function.  
+
+### ✨ **Text Processing with Gemini 2.0 Flash**  
+The `text_to_question` function leverages **Google's Gemini 2.0 Flash model** for efficient question generation.  
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
