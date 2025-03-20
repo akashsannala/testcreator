@@ -105,7 +105,7 @@ The `text_to_question` function leverages **Google's Gemini 2.0 Flash model** fo
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
-📊 Model Performance & Analysis Capacity
+##📊 Model Performance & Analysis Capacity
 
 🔢 Current Model Stats
 
@@ -114,6 +114,7 @@ Requests per Minute (RPM): 15
 Requests per Day (RPD): 1,000,000
 
 Tokens per Minute (TPM): 1,500
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 📄 Token Consumption Estimate (Based on CAPTURE.JPG)
 
@@ -122,6 +123,7 @@ Image Processing: 516 tokens
 Extracted Text Processing: 662 tokens
 
 Total Estimated Tokens per Page: ~1,178 tokens
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 📚 Daily Processing Capacity
 
@@ -134,7 +136,7 @@ Equivalent to:
 ------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-🚀 Beta Features:
+##🚀 Beta Features:
 
 
 ✅ FastAPI/Flask Integration – Seamlessly integrates with FastAPI or Flask for efficient API development.
@@ -148,7 +150,7 @@ Equivalent to:
 ------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-🚀 Future Scope & Limitations 
+##🚀 Future Scope & Limitations 
 
 
 🎯 Future Enhancements
