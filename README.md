@@ -98,33 +98,6 @@ Currently using the **beta version of OpenAI integrated with Gemini** in the `an
 ### ✨ **Text Processing with Gemini 2.0 Flash**  
 The `text_to_question` function leverages **Google's Gemini 2.0 Flash model** for efficient question generation.  
 
-------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------
-
-
-🚀 Future Scope & Limitations 
-
-
-🎯 Future Enhancements
-
-✅ Performance Optimization – Reduce latency and improve response times by optimizing API calls.
-
-✅ Structured Model with LangChain – Utilize LangChain to create a more modular and organized workflow.
-
-✅ Customizable Input Options – Allow users to upload images and provide custom prompts for expected test sheet generation.
-
-✅ Efficient Processing with Embeddings – Instead of passing raw text, integrate text embeddings in text_to_question for improved accuracy and performance.
-
-✅ Modular Model Architecture – Break down processes into smaller components to enhance efficiency and scalability.
-
-
-⚠️ Limitations
-
-📌 Token Consumption – High token usage for image-to-text conversion may require optimization.
-
-📌 API Rate Limits – Processing speed is restricted by API constraints (TPM & RPM).
-
-📌 Dependency on External APIs – Performance may vary based on OpenAI and Gemini API updates.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
@@ -159,6 +132,45 @@ Equivalent to:
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+🚀 Beta Features:
+
+
+✅ FastAPI/Flask Integration – Seamlessly integrates with FastAPI or Flask for efficient API development.
+
+✅ Customizable Input – Supports flexible input handling for both text and image-based AI processing.
+
+✅ Real-time Streaming – Enables text streaming for a smoother user experience.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+
+🚀 Future Scope & Limitations 
+
+
+🎯 Future Enhancements
+
+✅ Performance Optimization – Reduce latency and improve response times by optimizing API calls.
+
+✅ Structured Model with LangChain – Utilize LangChain to create a more modular and organized workflow.
+
+✅ Customizable Input Options – Allow users to upload images and provide custom prompts for expected test sheet generation.
+
+✅ Efficient Processing with Embeddings – Instead of passing raw text, integrate text embeddings in text_to_question for improved accuracy and performance.
+
+✅ Modular Model Architecture – Break down processes into smaller components to enhance efficiency and scalability.
+
+
+⚠️ Limitations
+
+📌 Token Consumption – High token usage for image-to-text conversion may require optimization.
+
+📌 API Rate Limits – Processing speed is restricted by API constraints (TPM & RPM).
+
+📌 Dependency on External APIs – Performance may vary based on OpenAI and Gemini API updates.
+
 
 
 
